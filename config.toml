@@ -1,3 +1,60 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "es-AR"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "El cazador de rescates"
+  subtitle    = "Rescatando mascostas en El Cazador de Escobar"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Intentamos hacer posible que más animales encunetre su hugar"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "elcazadorderescates"
+  fbName = "elcazadorderescates"
+  githubName = "elcelcazadorderescates"
+
+  logo = "hugo-logo.png"
+  orgName = "AD"
+  orgWebsite = "https://www.andreadowyer.com"
+  orgDescription = "Andrea Dowyer empresa de consultoría digital"
+
+  author = "AD"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Escobar, AR"
+  authorWebsite = "https://www.andreadowyer.com"
+  authorDescription = "SOy una mina que amo a los animales"
+
+  pageNotFoundTitle = "404 - Página no encontrada"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Principal"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Rescates"
+  url = "/tags/rescates/"
+  weight = 100
+
+[[menu.main]]
+  name = "Mascotas"
+  url = "/categories/mascotas/"
+  weight = 99
+
+[[menu.main]]
+  name = "Zoonosis Escobar"
+  url = "https://web.facebook.com/groups/55866882327/"
+  weight = 95

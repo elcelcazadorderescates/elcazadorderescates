@@ -11,5 +11,6 @@ autoThumbnailImage: false
 thumbnailImagePosition: top
 thumbnailImage: /images/uploads/pancha.jpg
 coverImage: /images/uploads/pancha.jpg
+image: /images/uploads/pancha.jpg
 ---
-alskdfmawoerwm,erw
+Probando nueva publicación

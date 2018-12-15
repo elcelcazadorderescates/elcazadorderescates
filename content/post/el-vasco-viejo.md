@@ -5,9 +5,9 @@ categories:
   - mascotas
 tags:
   - rescates
-autoThumbnailImage: true
+autoThumbnailImage: false
 thumbnailImagePosition: top
-thumbnailImage: ''
+thumbnailImage: /images/uploads/img-20180521-wa0002.jpg
 coverImage: /images/uploads/img-20180521-wa0003.jpg
 ---
 Probando un post sobre El Vasco...

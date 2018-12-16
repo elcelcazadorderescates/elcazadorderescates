@@ -21,16 +21,24 @@ collections:
         name: "title"
         widget: "string"
 
-      - label: "Incluir en menu"
-        name: "menu"
-        required: false
-        widget: "select"
-        options: [{label: "Principal", value: "main"}]
+      - label: "Contenido"
+        name: "body"
+        widget: "markdown"
 
-      - label: "Fecha de Publicacíión"
-        name: "date"
+      - label: "Imágen"
+        name: "image"
         required: false
-        widget: "datetime"
+        widget: "image"
+
+      - label: "Autor"
+        name: "author"
+        required: false
+        widget: "string"
+
+      - label: "Imágen del autor"
+        name: "authorAvatar"
+        required: false
+        widget: "image"
 
       - label: "Categorías"
         name: "categories"
@@ -47,21 +55,13 @@ collections:
         required: false
         widget: "list"
 
-      - label: "Autor"
-        name: "author"
+      - label: "Incluir en menu"
+        name: "menu"
         required: false
-        widget: "string"
+        widget: "select"
+        options: [{label: "Principal", value: "main"}]
 
-      - label: "Imágen del autor"
-        name: "authorAvatar"
+      - label: "Fecha de Publicacíión"
+        name: "date"
         required: false
-        widget: "image"
-
-      - label: "Imágen"
-        name: "image"
-        required: false
-        widget: "image"
-
-      - label: "Contenido"
-        name: "body"
-        widget: "markdown"
+        widget: "datetime"

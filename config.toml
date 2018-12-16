@@ -26,10 +26,10 @@ paginate        = 6
   orgDescription = "Andrea Dowyer empresa de consultoría digital"
 
   author = "AD"
-  authorAvatar = "img/ghost-icon.png"
+  authorAvatar = "/images/uploads/andrea.jpeg"
   authorLocation = "Escobar, AR"
   authorWebsite = "https://www.andreadowyer.com"
-  authorDescription = "SOy una mina que amo a los animales"
+  authorDescription = "Soy una mina que amo a los animales"
 
   pageNotFoundTitle = "404 - Página no encontrada"
 

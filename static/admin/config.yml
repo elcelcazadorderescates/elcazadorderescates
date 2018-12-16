@@ -10,60 +10,58 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
 
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
+    label: "Publicaciones" # Used in the UI
+    label_singular: "Publicación"
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
 
-      - label: "Title"
+      - label: "Título"
         name: "title"
         widget: "string"
 
-      - label: "Publish Date"
+      - label: "Incluir en menu"
+        name: "menu"
+        required: false
+        widget: "select"
+        options: [{label: "Principal", value: "main"}]
+
+      - label: "Fecha de Publicacíión"
         name: "date"
         required: false
         widget: "datetime"
 
-      - label: "Categories"
+      - label: "Categorías"
         name: "categories"
         required: false
         widget: "list"
 
-      - label: "Tags"
+      - label: "Etiquetas"
         name: "tags"
         required: false
         widget: "list"
 
-      - label: "Keywords"
+      - label: "Palabras clave"
         name: "keywords"
         required: false
         widget: "list"
 
-      - label: "Auto Thumbnail Image"
-        name: "autoThumbnailImage"
+      - label: "Autor"
+        name: "author"
         required: false
-        widget: "boolean"
-        default: false
+        widget: "string"
 
-      - label: "Thumbnail Image Position"
-        name: "thumbnailImagePosition"
-        required: false
-        widget: "select"
-        default: "top"
-        options: ["left", "top", "right"]
-        
-      - label: "Thumbnail Image"
-        name: "thumbnailImage"
+      - label: "Imágen del autor"
+        name: "authorAvatar"
         required: false
         widget: "image"
 
-      - label: "Cover Image"
-        name: "coverImage"
+      - label: "Imágen"
+        name: "image"
         required: false
         widget: "image"
-        default: "/images/uploads/cover-post.jpg"
-        
-      - label: "Body"
+
+      - label: "Contenido"
         name: "body"
         widget: "markdown"

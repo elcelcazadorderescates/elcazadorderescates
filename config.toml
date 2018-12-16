@@ -6,26 +6,24 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "El cazador de rescates"
+  title       = "Historias de rescates"
   subtitle    = "Rescatando mascostas en El Cazador de Escobar"
 
-  cover       = "img/blog-cover.jpg"
   description = "Intentamos hacer posible que más animales encunetre su hugar"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "elcazadorderescates"
-  fbName = "elcazadorderescates"
-  githubName = "elcelcazadorderescates"
+  twitterName = "historiaderescates"
+  fbName = "historiaderescates"
 
   logo = "hugo-logo.png"
-  orgName = "AD"
+  orgName = "AndreaDowyer"
   orgWebsite = "https://www.andreadowyer.com"
   orgDescription = "Andrea Dowyer empresa de consultoría digital"
 
-  author = "AD"
+  author = "Andre"
   authorAvatar = "/images/uploads/andrea.jpeg"
   authorLocation = "Escobar, AR"
   authorWebsite = "https://www.andreadowyer.com"
